@@ -71,7 +71,7 @@
 		</div>
 	</div>
 
-	<div class="row mt-3 ml-3 mr-3">
+	<div class="row mt-3 ml-3 mr-3 text-center">
 		<div class="card col-md-12">
 			<div class="card-body">
 				<table width="100%">
