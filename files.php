@@ -66,7 +66,7 @@ $files = $conn->query("SELECT * FROM files where folder_id = $folder_parent and 
 			$id = $path['parent_id'];
 		}
 		?>
-		<li class="breadcrumb-item"><a class="text-primary" href="index.php?page=files">Files</a></li>
+		<li class="breadcrumb-item"><a class="text-primary font-weight-bold" href="index.php?page=files">Files</a></li>
 	</ol>
 </nav>
 <div class="container-fluid">

@@ -1,17 +1,17 @@
 
 <nav aria-label="breadcrumb ">
   <ol class="breadcrumb">
-  <li class="breadcrumb-item text-success">Home</li>
+  <li class="breadcrumb-item text-primary font-weight-bold">Home</li>
   </ol>
 </nav>
 <div class="container-fluid">
 	
 	<div class="row">
 	<div class="col-lg-12">
-			<button class="btn btn-success float-right btn-md" id="new_user"><i class="fa fa-plus"></i> New user</button>
+			<button class="btn btn-primary float-right btn-md" id="new_user"><i class="fa fa-plus"></i> New user</button>
 	</div>
 	</div>
-	<br>
+	<br>	
 	<div class="row">
 		<div class="card col-lg-12">
 			<div class="card-body">
@@ -44,8 +44,8 @@
 				 	<td>
 				 		<center>
 								<div class="btn-group">
-								  <button type="button" class="btn btn-success">Action</button>
-								  <button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								  <button type="button" class="btn btn-primary">Action</button>
+								  <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								    <span class="sr-only">Toggle Dropdown</span>
 								  </button>
 								  <div class="dropdown-menu">
