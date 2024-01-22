@@ -46,7 +46,7 @@ a.custom-menu-list span.icon{
 	?>
 	<div class="row">
 		<div class="col-lg-12">
-			<div class="card col-md-4 offset-2 bg-success float-left">
+			<div class="card col-md-4 offset-2 bg-primary float-left">
 				<div class="card-body text-white">
 					<h4><b>Users</b></h4>
 					<hr>
@@ -54,7 +54,7 @@ a.custom-menu-list span.icon{
 					<h3 class="text-right"><b><?php echo $conn->query('SELECT * FROM users')->num_rows ?></b></h3>
 				</div>
 			</div>
-			<div class="card col-md-4 offset-2 bg-success ml-4 float-left">
+			<div class="card col-md-4 offset-2 bg-primary ml-4 float-left">
 				<div class="card-body text-white">
 					<h4><b>Files</b></h4>
 					<hr>
