@@ -66,15 +66,15 @@ $files = $conn->query("SELECT * FROM files where folder_id = $folder_parent and 
 			$id = $path['parent_id'];
 		}
 		?>
-		<li class="breadcrumb-item"><a class="text-success" href="index.php?page=files">Files</a></li>
+		<li class="breadcrumb-item"><a class="text-primary" href="index.php?page=files">Files</a></li>
 	</ol>
 </nav>
 <div class="container-fluid">
 	<div class="col-lg-12">
 
 		<div class="row">
-			<button class="btn btn-success btn-sm" id="new_folder"><i class="fa fa-plus"></i> New Folder</button>
-			<button class="btn btn-success btn-sm ml-4" id="new_file"><i class="fa fa-upload"></i> Upload File</button>
+			<button class="btn btn-primary btn-sm" id="new_folder"><i class="fa fa-plus"></i> New Folder</button>
+			<button class="btn btn-primary btn-sm ml-4" id="new_file"><i class="fa fa-upload"></i> Upload File</button>
 		</div>
 		<hr>
 		<div class="row">
