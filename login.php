@@ -67,21 +67,21 @@ header("location:index.php?page=home");
   		</div>
   		<div id="login-right">
   			<div class="w-100">
-  				<h4 class="text-success text-center"><b>File Management System</b></h4>
+  				<h4 class="text-primary text-center"><b>File Management System</b></h4>
   				<br>
   			
   			<div class="card col-md-8">
   				<div class="card-body">
   					<form id="login-form" >
   						<div class="form-group">
-  							<label for="username" class="control-label text-success">Username</label>
+  							<label for="username" class="control-label text-primary">Username</label>
   							<input type="text" id="username" name="username" class="form-control">
   						</div>
   						<div class="form-group">
-  							<label for="password" class="control-label text-success">Password</label>
+  							<label for="password" class="control-label text-primary">Password</label>
   							<input type="password" id="password" name="password" class="form-control">
   						</div>
-  						<center><button class="btn-sm btn-block btn-wave col-md-4 btn-success">Login</button></center>
+  						<center><button class="btn-sm btn-block btn-wave col-md-4 btn-primary">Login</button></center>
   					</form>
   				</div>
   			</div>

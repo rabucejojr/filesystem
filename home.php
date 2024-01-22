@@ -36,7 +36,7 @@ a.custom-menu-list span.icon{
 </style>
 <nav aria-label="breadcrumb ">
   <ol class="breadcrumb">
-  <li class="breadcrumb-item text-success">Home</li>
+  <li class="breadcrumb-item text-primary">Home</li>
   </ol>
 </nav>
 <div class="containe-fluid">
