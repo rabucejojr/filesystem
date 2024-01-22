@@ -30,7 +30,7 @@ header("location:index.php?page=home");
 	#login-right{
 		position: absolute;
 		right:0;
-		width:40%;
+		width:50%;
 		height: calc(100%);
 		background:white;
 		display: flex;
@@ -39,7 +39,7 @@ header("location:index.php?page=home");
 	#login-left{
 		position: absolute;
 		left:0;
-		width:60%;
+		width:50%;
 		height: calc(100%);
 		background:white;
 		display: flex;
@@ -70,7 +70,7 @@ header("location:index.php?page=home");
   				<h4 class="text-primary text-center"><b>File Management System</b></h4>
   				<br>
   			
-  			<div class="card col-md-8">
+  			<div class="card col-md-6">
   				<div class="card-body">
   					<form id="login-form" >
   						<div class="form-group">

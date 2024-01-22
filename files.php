@@ -61,7 +61,7 @@ $files = $conn->query("SELECT * FROM files where folder_id = $folder_parent and 
 
 			$path = $conn->query("SELECT * FROM folders where id = $id  order by name asc")->fetch_array();
 		?>
-			<li class="breadcrumb-item text-success"><?php echo $path['name']; ?></li>
+			<li class="breadcrumb-item text-primary font-weight-bold"><?php echo $path['name']; ?></li>
 		<?php
 			$id = $path['parent_id'];
 		}
