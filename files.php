@@ -94,11 +94,11 @@ $files = $conn->query("SELECT * FROM files where folder_id = $folder_parent and 
 			</div>
 		</div>
 		<hr>
-		<div class="row">
+		<div class="row text-center">
 			<?php
 			while ($row = $folders->fetch_assoc()) :
 			?>
-				<div class="card col-md-3 mt-2 ml-2 mr-2 mb-2 folder-item" data-id="<?php echo $row['id'] ?>">
+				<div class="card col-md-3 mt-2 ml-2 mr-2 mb-2 folder-item justify-content-center" data-id="<?php echo $row['id'] ?>">
 					<div class="card-body">
 						<large><span><i class="fa fa-folder"></i></span><b class="to_folder"> <?php echo $row['name'] ?></b></large>
 					</div>
