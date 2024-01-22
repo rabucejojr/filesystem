@@ -67,7 +67,7 @@ header("location:index.php?page=home");
   		</div>
   		<div id="login-right">
   			<div class="w-100">
-  				<h4 class="text-primary text-center"><b>File Management System</b></h4>
+  				<h4 class="text-primary text-center"><b>PSTO-SDN <br>File Management System</br></h4>
   				<br>
   			
   			<div class="card col-md-6">
