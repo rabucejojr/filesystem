@@ -76,10 +76,10 @@
 			<div class="card-body">
 				<table width="100%">
 					<tr>
-						<th width="20%" class="">Uploader</th>
-						<th width="30%" class="">Filename</th>
-						<th width="20%" class="">Date</th>
-						<th width="30%" class="">Description</th>
+						<th width="25%" class="">Uploader</th>
+						<th width="25%" class="">Filename</th>
+						<th width="25%" class="">Date</th>
+						<th width="25%" class="">Description</th>
 					</tr>
 					<?php
 					while ($row = $files->fetch_assoc()) :
